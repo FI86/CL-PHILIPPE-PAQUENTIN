@@ -15,5 +15,16 @@ def main():
     # Calculer le temps écoulé depuis la dernière modification
 
 
+    # Gestion de fichier texte
+    # Suppression du fichier
+
+    # Ecriture initiale (creation du fichier si non existant)
+
+    # Modification : on lit l'ancien contenu puis on ajoute du texte
+
+    # Lecture finale
+
+    # Suppression du contenu
+    
 if __name__ == "__main__":
     main()

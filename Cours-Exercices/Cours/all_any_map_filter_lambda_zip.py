@@ -2,7 +2,7 @@
 
 # all (si toutes les conditions sont vraie)
 
-# any (si une des conditons est vraie)
+# any (si une des conditions est vraie)
 
 # map applique une transformation à tout les éléments d'un itérable
 # (une fois le map parcouru le curseur ne revient pas et n'est pas réutilisable)
@@ -11,7 +11,6 @@
 
 # filter : filtre avec un prédicat les éléments d'un itérable et retourne un booléen
 
-# lambda
 
 # Fonction native zip
 
@@ -26,7 +25,10 @@
 
     # Dezipper
 
-    
+
+# Fonctions de conversion de température
+
+
 # Fonction principale
 def main():
     pass
