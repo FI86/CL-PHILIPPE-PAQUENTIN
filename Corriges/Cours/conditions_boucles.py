@@ -24,7 +24,7 @@ def main():
     match c:
         case 1 | 2: print(x)
         case 3: print(y)
-        case _: print(c)    
+        case _: print(c)
 
     # Condition ternaire
     st = "x est plus petit que y" if (x < y) else "x est plus grand que y"
@@ -99,3 +99,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
