@@ -69,9 +69,9 @@ finally:
 
 # Lever une exception
 try:
-    x = input("Saisissez un nombre : ")
+    nombre = input("Saisissez un nombre : ")
 
-    if int(x) < 0:
+    if int(nombre) < 0:
         raise ValueError("La valeur ne doit pas être négative")
 except ValueError as e:
     print(e)

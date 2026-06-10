@@ -130,4 +130,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-    # La fin de programme Déclenche le destrcuteur __del__ pour chaque objet crée.
+# La fin de programme Déclenche le destrcuteur __del__ pour chaque objet crée.
