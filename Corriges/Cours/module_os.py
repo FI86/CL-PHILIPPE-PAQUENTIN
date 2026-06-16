@@ -42,7 +42,7 @@ def main():
     print(f"Date de modification du fichier : {time.ctime(path.getmtime(PATH_JOIN))}")
     print(f"Date de modification du fichier : {datetime.datetime.fromtimestamp(path.getmtime(PATH_JOIN))}")
 
-    # Caclucler le temps écoulé depuis la dernière modification
+    # Calculer le temps écoulé depuis la dernière modification
     td = datetime.datetime.now() - datetime.datetime.fromtimestamp(path.getmtime(PATH_JOIN))
     print(f"Il s'est passé {str(td)} depuis la dernière modification")
     print(f"Ou, {str(td.total_seconds())} secondes")
